@@ -1,0 +1,184 @@
+/* TO DO: FIX TYCH PIERDOLONYCH BORDEROW NA HOVERZE */
+.widgets {
+    flex: 0.3;
+    margin-left: 2rem;
+  }
+
+  .layout-searchbar{
+    display: flex;
+    align-items: center;
+    background-color: #f5f8fa;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 12px;
+  }
+
+  .layout-searchbar > input {
+    border: none;
+    background-color: #f5f8fa;
+    outline: none;
+  }
+
+  .layout-searchbar-image{
+    color: gray;
+    height: 20px;
+    width: 20px;
+    padding-left: 12px;
+    margin-right: 15px;
+  }
+
+  .trends-for-you {
+    border-radius: 15px;
+    background: #f5f8fa;
+    margin-bottom: 15px;
+  }
+  
+  .trends-for-you-block {
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+    position: sticky;
+  }
+  
+  .trends-for-you-block:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .trends-for-you-block:hover{
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .trends-for-you-heading {
+    font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+    position: sticky;
+  }
+  
+  .trends-for-you-meta-information {
+    font-size: 13px;
+    font-weight: 300;
+    color: #657786;
+  }
+  
+  .trends-for-you-trend-name {
+    font-size: 15px;
+    color: #14171a;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+
+  .trends-for-you-show-more{
+    border-radius: 15px;
+    color: #1DA1F2;
+  }
+  
+/* Może ci się spodobać */
+
+.may-like-it {
+  background: #f5f8fa;
+  border-radius: 15px;
+}
+
+
+.may-like-it-block {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.may-like-it-block:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.may-like-it-block:hover{
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+}
+
+.may-like-it-author-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.may-like-it-author-slug {
+  color: #657786;
+  font-size: 15px;
+}
+
+.may-like-it-author-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.may-like-it-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.may-like-it-heading {
+  font-size: 19px;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #14171a;
+  display: flex;
+  align-items: center;
+}
+
+.may-like-it-button {
+  background-color: black;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 7px;
+  min-width: 67px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.may-like-it-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.may-like-it-show-more {
+  color: #1DA1F2;
+}
+
+
+.privacy-policy{
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.privacy-policy-text{
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  color: rgb(117, 117, 117);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.privacy-policy-text:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,109 @@
+/* TO DO: FIX TYCH PIERDOLONYCH BORDEROW NA HOVERZE */
+.widgets {
+    flex: 0.5;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+  
+/* who to follow */
+
+.who-to-follow {
+  background: #f5f8fa;
+  border-radius: 15px;
+}
+
+
+.who-to-follow-block {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.who-to-follow-block:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.who-to-follow-block:hover{
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+}
+
+.who-to-follow-author-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.who-to-follow-author-slug {
+  color: #657786;
+  font-size: 15px;
+}
+
+.who-to-follow-author-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.who-to-follow-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.who-to-follow-heading {
+  font-size: 19px;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #14171a;
+  display: flex;
+  align-items: center;
+}
+
+.who-to-follow-button {
+  background-color: black;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 7px;
+  min-width: 67px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.who-to-follow-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.who-to-follow-show-more {
+  color: #1DA1F2;
+}
+
+.privacy-policy{
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.privacy-policy-text{
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  color: rgb(117, 117, 117);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.privacy-policy-text:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

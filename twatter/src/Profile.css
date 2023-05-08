@@ -1,0 +1,283 @@
+.feed {
+    flex: 0.6;
+    min-width: 60%;
+    max-width: 60%;
+    border-right: 1px solid var(--twitter-background);
+    overflow-y: scroll;
+  }
+
+  /* Ukrywa scrolla IE, Firefox */
+  .feed { 
+      -ms-overflow-style: none; 
+      scrollbar-width: none; 
+  }
+
+  /* Ukrywa scrolla Chrome, Safari, Opera*/
+    .feed::-webkit-scrollbar {
+      display: none;
+  }
+
+  /* Header */
+
+.feed-header-box {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+    opacity: 0.96;
+    border-bottom: none;
+}
+  
+  .feed-header-text-info {
+    align-items: flex-start;
+  }
+
+  .feed-header-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+
+  .feed-header-counter {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 25px;
+  }
+
+  .feed-header-arrow {
+    display: inline-block;
+    position: relative;
+    align-items: flex-start;
+    height: 20px;
+    width: 20px;
+    margin-left: calc(-8px)
+  }
+  
+  .feed-header-arrow:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+  }
+
+  /* Profil, Zdjęcie w tle, profilowe, statystyki, opis */
+
+  .feed-profile {
+    height: fit-content;
+    width: fit-content;
+
+  }
+
+  .feed-profile-image-bg {
+    outline-style: none;
+  }
+
+  .feed-profile-pp-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .feed-profile-pp {
+    border-radius: 9999px;
+    max-width: 135px;
+    min-width: 135px;
+    max-height: 135px;
+    min-height: 135px;
+    min-width: 48px;
+    margin-top: -70px;
+    margin-left: 1.5rem;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 5px;
+  }
+
+  .feed-profile-pp:hover {
+    cursor: pointer;  
+  }
+
+  .feed-profile-edit-button{
+    display: flex;
+    float: right;
+    margin-top: -3.5rem;
+    margin-right: 1rem;
+  }
+
+  .feed-profile-button{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.5rem;
+    border-color: rgb(157, 157, 157);
+    font-size: 1rem;
+    padding: 7px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .feed-profile-button:hover{
+    cursor: pointer;
+    background-color: #B0B6B9;
+  }
+
+  .feed-profile-username-box {
+    padding-top: 12.5px;
+    padding-left: 15px;
+    margin-bottom: 12px;
+  }
+
+  .feed-profile-username {
+    display: flex;
+    justify-content: left;
+  }
+
+  .feed-profile-username-tag {
+    font-size: 15px;
+  }
+
+  .feed-profile-username-text{
+    border-style: none;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .feed-profile-username-text:focus{
+    outline: 0;
+  }
+
+  .feed-profile-about {
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 12px;
+  }
+
+  .feed-profile-data {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    font-size: 11px;
+    color: grey;
+  }
+
+  .feed-profile-data-one {
+    margin-right: 20px;
+  }
+
+  .feed-profile-data-br-image {
+    width: 15px;
+    height: 15px;
+  }
+
+  .feed-profile-main-follow {
+    margin: 16px;
+  }
+
+  .feed-profile-follow-text-one {
+    font-weight: 500;
+  }
+
+  .feed-profile-follow-text-two {
+    margin-right: 15px;
+    color: grey;
+  }
+  
+  .feed-profile-your-tweets-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feed-profile-your-tweets-underscore {
+    background-color: rgb(29, 155, 240);
+    width: 10%;
+    height: 4px;
+    display: inline-flex;
+    border-radius: 9999px;
+  }
+
+  /* TUTAJ CSS OD MODULU Z TWEETAMI */
+
+  .feed-profile-your-tweets {
+    border-top: 1px solid #e6ecf0;
+  }
+
+  /* Kogo obserwować */
+
+  .who-to-follow {
+    background: #f5f8fa;
+    border-radius: 15px;
+  }
+  
+  
+  .who-to-follow-block {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .who-to-follow-block:last-child {
+    border-bottom: none;
+    margin-bottom: 15px;
+  }
+  
+  .who-to-follow-block:hover{
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .who-to-follow-author-logo {
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  
+  .who-to-follow-author-slug {
+    color: #657786;
+    font-size: 15px;
+  }
+  
+  .who-to-follow-author-name {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .who-to-follow-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .who-to-follow-heading {
+    border-top: 1px solid #e6ecf0;
+    font-size: 19px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #14171a;
+    display: flex;
+    align-items: center;
+  }
+  
+  .who-to-follow-button {
+    background-color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 7px;
+    min-width: 67px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+  }
+  
+  .who-to-follow-button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+  }
+  
+  .who-to-follow-show-more {
+    color: #1DA1F2;
+  }
+  
+  

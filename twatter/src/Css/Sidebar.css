@@ -1,0 +1,152 @@
+.brand {
+    height: 2rem; 
+    filter: invert(46%) sepia(99%) saturate(1449%) hue-rotate(176deg) brightness(100%) contrast(91%); /* Inwersja kolorów logo z czarnego */
+    padding-left: 10px;
+    margin-top: 1rem;
+}
+
+.sidebar {
+    border-right: 1px solid var(--twitter-background);
+    flex: 0.3;
+    min-width: 250px;
+    padding-left: 20px;
+    padding-right: 2rem;
+}
+
+.sidebar__twitterIcon {
+    color: var(--twitter-color);
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+  
+.sidebar__tweet {
+    background-color: var(--twitter-color);
+    border: none;
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+}
+ 
+  .sidebar-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    font-size: 1.45em;
+    color: #0F141A;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+  .sidebar-menu:hover .sidebar-menu-pad {
+    background: rgba(29, 161, 242, 0.1);
+    color: #1da0f2;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .sidebar-menu-pad {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    padding-right: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .sidebar-menu__item-icon {
+    height: 26px;
+    margin-right: 1rem;
+  }
+
+  .sidebar-button {
+    background-color: #1DA1F2;
+    border-radius: 1.5rem;
+    border-color: white;
+    margin-top: 0.5rem;
+    width: 100%;
+    color: white;
+    font-size: 1.45rem;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .sidebar-button {
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  .sidebar-button:hover{
+    filter: brightness(94%);
+    background-color: rgb(29, 161, 242);
+    cursor: pointer;
+  }
+  
+  .sidebar-profile{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2.5rem;
+    border-color: white;
+    margin-top: 0.5rem;
+    font-size: 1.45rem;
+    padding: 10px;
+    margin-bottom: 1rem;
+    position: absolute;
+    bottom: 0;
+    max-width: 500px;
+    width: fit-content;
+
+  }
+
+  .sidebar-profile:hover{
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+  }
+
+  .sidebar-avatar{
+    width: 39px;
+    height: 39px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
+  .sidebar-username{
+    width: fit-content;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 5rem;
+  }
+
+  .sidebar-profile-content{
+    margin-right: 5rem;
+  }
+
+  .sidebar-username-tag{
+    color: #657786;
+    font-size: 15px;
+  }
+
+  .sidebar-profile-dots{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+
+  
+  
+  
